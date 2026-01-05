@@ -1,0 +1,6 @@
+frase = input('Digite uma frase: ').upper()
+frase = frase.strip()
+LetraAnaFrase = frase.count('A')
+AondeEstaoA1 = frase.find('A')
+AondeEstaoA2 = frase.rfind('A')
+print(f'A frase possui {LetraAnaFrase} letras "A", o primeiro está na posição {AondeEstaoA1 + 1} e o último está na posição {AondeEstaoA2 + 1}')     

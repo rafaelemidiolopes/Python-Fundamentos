@@ -1,0 +1,3 @@
+# Este script tem o propósito de pedir para o usuário digitar um número, e mostrar a tabuada desse número do 1 ao 10
+N = int(input('digite um número inteiro para eu mostrar a tabuada dele até 10:   '))
+print(f' a tabuada do {N} é: \n {N} X 1 = {N*1} \n {N} X 2 = {N*2} \n {N} X 3 = {N*3} \n {N} X 4 = {N*4} \n {N} X 5 = {N*5} \n {N} X 6 = {N*6} \n {N} X 7 = {N*7} \n {N} X 8 = {N*8} \n {N} X 9 = {N*9} \n {N} X 10 = {N*10}')
